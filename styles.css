@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap');
+
 header {
     display: flex;
     justify-content: space-between;
@@ -9,7 +11,50 @@ header {
     left: 0;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: center;
+
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap');
+nav ul{
+    align-items: center;
+    font-size: x-large;
+    color: #B2BEB5;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    gap: 20px;
+
+}
+
+nav ul a.highlight{
+    color: #B2BEB5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#B2BEB5;
+    text-decoration:none;
+    border-radius: 3px;
+}
+
+
+
+body {
+    background-color: #778899;
+    color: #B2BEB5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
 
