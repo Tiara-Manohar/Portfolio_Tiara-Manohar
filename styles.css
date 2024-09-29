@@ -1,11 +1,213 @@
+/* Global Reset */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #778899; /* Light yellow latte color */
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #778899; /* Same background as body */
+    position: fixed; /* Fixes the header at the top */
+    top: 0; /* Positions the header at the very top */
+    left: 0; /* Aligns the header to the left */
+    z-index: 1000; /* Ensures the header stays above other content */
+}
+
+.logo h2 {
+    font-size: 1.5em;
+    color: #2d2d2d; /* Dark text color */
+}
+
+
+nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the <ul> horizontally */
+    align-items: center; /* Center the <ul> vertically if necessary */
+    position: relative; /* Positioning context */
+    width: 100%; /* Full width for the nav */
+    padding: 20px 0; /* Add padding at the top and bottom */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Space between links */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #2d2d2d; /* Text color */
+    justify-content: center;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+.social-icons {
+    position: fixed; /* Fixed position to keep it in the same spot even when scrolling */
+    margin: 20px;
+    right: 20px; /* Distance from the right side of the page */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center icons vertically */
+}
+
+.social-icons a img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 100px; /* Space below header */
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #00008b; /* Dark blue */
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.hero-content .resume-btn {
+    background-color: #f5d568; /* Light yellow button */
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Hero Image Styling */
+.hero-image img {
+    border-radius: 50%; /* Circular image */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #f5d568; /* Matching border color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap');
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: #778899;
     color: #B2BEB5;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,12 +215,14 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     text-align: center;
+    align-items: center;
+    margin-top: 10;
 
 }
 
 nav ul{
     align-items: center;
-    font-size: x-large;
+    font-size: large;
     color: #B2BEB5;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -57,4 +261,4 @@ body {
 
 
 
-
+ */
