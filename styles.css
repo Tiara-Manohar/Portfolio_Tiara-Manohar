@@ -22,6 +22,7 @@ body {
 
 /* Header Styling */
 header {
+    font-size: x-large;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,15 +36,16 @@ header {
 }
 
 .logo h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #2d2d2d; /* Dark text color */
 }
 
 
 nav {
+    font-family: 'Montserrat', sans-serif;
     display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center the <ul> horizontally */
-    align-items: center; /* Center the <ul> vertically if necessary */
+    align-items: right; /* Center the <ul> vertically if necessary */
+    justify-content: right;
     position: relative; /* Positioning context */
     width: 100%; /* Full width for the nav */
     padding: 20px 0; /* Add padding at the top and bottom */
@@ -61,10 +63,10 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: #2d2d2d; /* Text color */
-    justify-content: center;
+    justify-content: right;
     margin: 50px 0;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 nav ul li a:hover {
@@ -92,7 +94,7 @@ nav ul li a:hover {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    margin-top: 200px; /* Space below header */
+    margin-top: 100px; /* Space below header */
 }
 
 .hero-content {
