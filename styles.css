@@ -57,7 +57,7 @@ nav ul {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     display: flex; /* Use flexbox for layout */
-    gap: 20px; /* Space between links */
+    gap: 60px; /* Space between links */
 }
 
 
